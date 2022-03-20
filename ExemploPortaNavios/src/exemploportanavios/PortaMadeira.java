@@ -10,17 +10,26 @@ package exemploportanavios;
  * @author rafar
  */
 public class PortaMadeira extends Navio {
-    
+    /**
+    *<h1>Branches</h1>
+    *<p>Criação e Alterações em branches</p>
+    */
     //alteração do NovoBranch
     
     //outra alteração no NovoBranch
     
     public int num_max_toneladas;
-
+/**
+ * @param matricula 
+ * passa parâmetro para o construtor da superclasse 
+ */
       public PortaMadeira (String matricula) {
-            super(matricula);//passa parâmetro para o construtor da superclasse 
+            super(matricula);
       }
-
+/**
+ * 
+ * @return valor maximo de toneladas
+ */
     public int getNum_max_toneladas() {
         return num_max_toneladas;
     }

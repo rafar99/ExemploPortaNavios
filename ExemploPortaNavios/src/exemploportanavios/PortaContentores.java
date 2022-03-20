@@ -14,10 +14,18 @@ public class PortaContentores extends Navio{
 
       public int num_max_contentores;
 
+      /**
+       * passa parâmetro para o construtor da superclasse 
+       * @param matricula 
+       */
       public PortaContentores (String matricula) {
-            super(matricula);//passa parâmetro para o construtor da superclasse 
+            super(matricula);
       }
 
+      /**
+       * 
+       * @return o maximo de contentores suportados
+       */
     public int getNum_max_contentores() {
         return num_max_contentores;
     }

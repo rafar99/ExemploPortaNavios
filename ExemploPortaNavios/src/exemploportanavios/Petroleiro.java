@@ -13,11 +13,18 @@ public class Petroleiro extends Navio{
     
     public float capacidade_carga;
 
-      public Petroleiro(String matricula) {
-            super(matricula);//passa parâmetro para o construtor da superclasse 
-      }
+    /**
+     * passa parâmetro para o construtor da superclasse
+     * @param matricula 
+     */
+    public Petroleiro(String matricula) {
+        super(matricula);
+    }
 
-
+    /**
+     * 
+     * @return a capacidade da carga do petroleito
+     */
     public float getCapacidade_carga() {
         return capacidade_carga;
     }
