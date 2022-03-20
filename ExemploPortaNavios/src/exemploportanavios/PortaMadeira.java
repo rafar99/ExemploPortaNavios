@@ -10,6 +10,9 @@ package exemploportanavios;
  * @author rafar
  */
 public class PortaMadeira extends Navio {
+    
+    //alteração do NovoBranch
+    
     public int num_max_toneladas;
 
       public PortaMadeira (String matricula) {
