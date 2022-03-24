@@ -13,7 +13,7 @@ public class ExemploPortaNavios {
 
     /**
      * @param args the command line arguments
-     * ExemploPortaNavios main class!
+     * <p>ExemploPortaNavios main class!</p>
      */
     public static void main(String[] args) {
         Porto p= new Porto();
@@ -21,7 +21,7 @@ public class ExemploPortaNavios {
         Petroleiro np;
         PortaContentores npc;
         
-        
+        //alteracao dia 24/03
         n = new Navio("12-MC-12");
         n.setNome("Navio-1");
         n.setComprimento(50);
