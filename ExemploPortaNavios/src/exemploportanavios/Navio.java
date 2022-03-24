@@ -8,9 +8,10 @@ package exemploportanavios;
 /**
  *
  * @author rafar
- */
+ */ 
 public class Navio {
-     public String matricula;
+    //declaração de variáveis 
+    public String matricula;
     public String nome;
     public float comprimento;
     
