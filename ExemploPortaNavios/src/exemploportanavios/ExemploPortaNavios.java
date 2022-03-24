@@ -7,12 +7,13 @@ package exemploportanavios;
 
 /**
  *
- * @author rafar
+ * @author rafar, ritaribeiro
  */
 public class ExemploPortaNavios {
 
     /**
      * @param args the command line arguments
+     * 
      */
     public static void main(String[] args) {
         
