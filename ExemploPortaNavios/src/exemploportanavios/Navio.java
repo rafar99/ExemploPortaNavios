@@ -7,7 +7,10 @@ package exemploportanavios;
 
 /**
  *
- * @author rafar
+ * @author rafar, rita
+ * 
+ * 
+ * 1º comentário branch rita
  */
 public class Navio {
      public String matricula;
