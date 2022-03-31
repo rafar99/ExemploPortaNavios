@@ -9,11 +9,13 @@ package exemploportanavios;
  *
  * @author rafar
  * 
- * comentário rita
+ * 
  */
 public class ExemploPortaNavios {
 
     /**
+     * 
+     * comentario Rita
      * @param args the command line arguments
      * <p>ExemploPortaNavios main class!</p>
      */
